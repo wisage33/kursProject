@@ -3,37 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gold Cinema</title>
+    <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600;700;900&family=Poppins:wght@100;200&display=swap" rel="stylesheet">
-    
+    <script src="js/index.js" defer></script>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        </style>
 </head>
 <body>
-    <div class="navbar">
-        <div class="navbar-container">
-        <div class="logo-container"><h1 class="logo">Cinema</h1></div>
-        <div class="menu-container">
-            <ul class="menu-list">
-                <li class="menu-list-item active">Home</li>
-                <li class="menu-list-item">Movies</li>
-                <li class="menu-list-item">Series</li>
-                <li class="menu-list-item">Popular</li>
-            </ul>
-        </div>
-        <div class="profile-container">
-            <img class="profileImg" src="img/profileImg2.jpg" alt="">
-            <div class="profile-text-container">
-                <span class="profile-text">Profile</span>
-            </div>
-            <div class="toggle"></div>
-        </div>
+    <div class="container header">
+        <p>Rayan Gosling</p>
+        <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>Contacts</li>
+        </ul>
+        <div class="location">
+            <svg class="location_icon" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor"
+                 d="M16 2A11.013 11.013 0 0 0 5 13a10.889 10.889 0 0 0 2.216 6.6s.3.395.349.452L16 30l8.439-9.953c.044-.05
+                 3.345-.447.345-.447l.001-.003A10.885 10.885 0 0 0 27 13A11.013 11.013 0 0 0 16 2m0 15a4 4 0 1 1 4-4a4.005
+                  4.005 0 0 1-4 4"/><circle cx="16" cy="13" r="4" fill="none"/></svg>
+            <p>Prague, CR</p>
         </div>
     </div>
-    <div class="sidebar">
-
+    <div class="container-main">
+        <div class="hero">
+            <h1>Game design</h1>
+            <h2>Its importance</h2>
+            <p>There are endless amounts of new gaming experiences. But what does make it interesting, absorbing and popular. Of course game-design. No design - no game</p>
+            <button class="btn-order">Order now</button>
+        </div>
+        <div class="main_img">
+            <img src="img/Rectangle 22.jpg" alt="" class="main_pic pic-2">
+            <img src="img/Rectangle 21.jpg" alt="" class="main_pic pic-1">
+        </div>
     </div>
-    <script src="js/index.js"></script>
+    <div class="text_portf"><p>Portfolio</p></div>
+    <div class="container-portf">
+        <div class="portf item-1">
+            <button class="portf_btn active_btn">3D modeling</button>
+            <img class="portf_img" src="img/Rectangle 23.png" alt="">
+        </div>
+        <div class="portf item-2">
+            <button class="portf_btn">Level design</button>
+            <img class="portf_img" src="img/Rectangle 24.jpg" alt="">
+        </div>
+        <div class="portf item-3">
+            <button class="portf_btn">World design</button>
+            <img class="portf_img" src="img/Rectangle 25.jpg" alt="">
+        </div>
+    </div>
+    <div class="anon_title"><p>How do I do this?</p></div>
+    <div class="container_anot">
+        <div class="title">
+            <div class="circle">1</div>
+            <p>Pretty</p>
+            <p class="annotation">Every time I work hard to make a miracle for you. 
+                I'm looking for the best angles, the best ideas and ways to make work  
+                beautiful and enjoyable.</p>
+        </div>
+        <div class="title">
+            <div class="circle">2</div>
+            <p>Qualitatively</p>
+            <p class="annotation">The issue of quality is very important to me. 
+                I make work with my soul and always take the order seriously. I keep 
+                missteps to a minimum and listen to your wishes</p>
+        </div>
+        <div class="title">
+            <div class="circle">3</div>
+            <p>How do you like</p>
+            <p class="annotation">I always keep in touch with you and give you the 
+                opportunity to make amendments. I also send you 
+                the result at each completed stage. You will definitely 
+                like the result!</p>
+        </div>
+    </div>
 </body>
 </html>
