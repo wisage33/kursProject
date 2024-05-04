@@ -169,10 +169,13 @@ body {
     width: 1202px;
     margin: 0 auto;
     display: flex;
+    margin-bottom: 170px;
 }
 
 .annotation {
     width: 379px;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .circle {
@@ -186,3 +189,95 @@ body {
     font-size: 32px;
     font-weight: bold;
 }
+
+.container-circle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 84px;
+}
+
+.container-circle p{
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container-contacts {
+    display: flex;
+    justify-content: space-between;
+    width: 1202px;
+    height: 425px;
+    margin: 0 auto;
+    margin-bottom: 170px;
+}
+
+.container-contacts .title {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.phone {
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.email {
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.social {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container-contacts .title_contacts{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 83px;
+}
+
+.greeting {
+    width: 234px;
+}
+
+.title_greeting {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.greeting_text {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.autor_img img {
+    border-radius: 10px;
+    width: 279px;
+    height: 419px;
+}
+
+
+footer {
+    display: flex;
+    width: 1202px;
+    margin: 0 auto;
+    gap: 255px;
+    margin-bottom: 89px;
+}
+
+footer .name_footer {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer .initals {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
